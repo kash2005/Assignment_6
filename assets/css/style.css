@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+main > section{
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.bg {
+    background-color: #E4E4D0;
+    position: absolute;
+    /* make bg image overflow x and y boundaries to eliminate vignette effect from blur */
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #9EB384;
+}
+
+.container-fluid{
+    position: absolute;
+    height: 80px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: #E4E4D0;
+    top: 5%;
+}
+
+.navbar-nav{
+    right: 5%;
+    position: absolute;
+}
+
+.navbar-nav>a{
+    color: #94A696;
+}
