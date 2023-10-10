@@ -35,17 +35,67 @@ main > section{
 
 .container-fluid{
     position: absolute;
-    height: 80px;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    height: 60px;
     background-color: #E4E4D0;
     top: 5%;
 }
 
+#logo{
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    left: 5%;
+}
+
 .navbar-nav{
-    right: 5%;
+    right: 20%;
     position: absolute;
 }
 
-.navbar-nav>a{
-    color: #94A6962;
+#navbar-nav>a{
+    font-size: 20px;
+    color: #94A696;
+    margin-left: 10%;
 }
+
+#home{
+    position: absolute;
+    top: 8%;
+    width: 1536px;
+    height: 680px;
+}
+
+.home_pag_paragraph{
+    z-index: 20;
+    width: 750px;
+    height: 311px;
+    text-align: right;
+    position: absolute;
+    right: 10%;
+}
+
+.home_pag_paragraph>h1{
+    font-size:64px;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: bold;
+    color: #c7f9cc;
+}
+
+.home_pag_paragraph>div{
+    width: 710px;
+    margin-top: 50px;
+}
+
+.home_pag_paragraph>div>p{
+    font-size: 29px;
+    color: white;
+    font-family: 'Lao Muang Don', cursive;
+    font-weight: lighter;
+}
+
+.home_pag_paragraph>button{
+    margin-top: 50px;
+    margin-right: 40px;
+    background-color: #9EB384;
+}
+

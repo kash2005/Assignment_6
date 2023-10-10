@@ -1,0 +1,171 @@
+#item_headline{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+#searchItem{
+    width: 281px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#searchDiv1{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+
+#form1{
+    position: absolute;
+    top: 22%;
+    left: 15%;
+}
+
+.form-control{
+    width: 80px;
+}
+
+#itemId{
+    width: 281px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#itemPrice{
+    width: 281px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#itemQty{
+    width: 281px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#itemDescription{
+    width: 281px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+.mb-3:nth-child(2){
+    position: absolute;
+    bottom:-110%;
+    left: 1.1%;
+}
+
+.mb-3:nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+
+.mb-3:nth-child(4){
+    position: absolute;
+    bottom: -110%;
+    left: 55%;
+}
+
+#button1{
+    position: absolute;
+    right: 8%;
+    top: 190px;
+}
+
+#button>button{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 0;
+
+}
+
+#image1>img{
+    width: 200px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    top: 25%;
+    right: 18%;
+    opacity: 75%;
+    border: 0;
+}
+
+#button1>.mt-3>button:nth-child(1){
+    background-color: #9EB384;
+}
+
+#button1>.mt-3>button:nth-child(2){
+    background-color: #008000;
+}
+
+#button1>.mt-3>button:nth-child(3){
+    background-color: #FF0000;
+}
+
+.form-label{
+    font-size: 18px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+}
+
+hr{
+    border: 2px solid black;
+    width: 1150px;
+    position: absolute;
+    left: 10%;
+    top: 55%;
+}
+
+#viewItems{
+    position: absolute;
+    bottom: 250px;
+    left: 10%;
+}
+/*apply css table */
+
+#table1{
+    width: 1000px;
+    position: absolute;
+    left: 190px;
+    top: 65%;
+}
+
+#table_head1>tr>th{
+    background-color: #9EB384;
+    color: white;
+    font-size: 25px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+}
+
+#table_head1>tr>th:first-child{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#table_head1>tr>th:last-child{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table>tbody{
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight:400;
+}
