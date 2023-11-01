@@ -1,0 +1,59 @@
+#orders_headline{
+    position: absolute;
+    color: #435334;
+    left: 10%;
+    top: 10%;
+}
+
+#searchOrders{
+    width: 281px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#searchDiv3{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+
+#viewOrders1{
+    position: absolute;
+    bottom: 250px;
+    left: 10%;
+}
+/*apply css table */
+
+#table3{
+    width: 1000px;
+    position: absolute;
+    left: 190px;
+    top: 65%;
+}
+
+#table_head3>tr>th{
+    background-color: #9EB384;
+    color: white;
+    font-size: 25px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+}
+
+#table_head3>tr>th:first-child{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#table_head3>tr>th:last-child{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table1>tbody{
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight:400;
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/customer.css">
     <link rel="stylesheet" href="assets/css/item.css">
+    <link rel="stylesheet" href="assets/css/order.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,7 +62,7 @@
                     and also our shop management systems
                     like customers , items & etc.</p>
             </div>
-            <button type="button" class="btn btn-success">View Order Details</button>
+            <button id="orderDetailsBtn" type="button" class="btn btn-success">View Order Details</button>
         </div>
     </section>
 </main>
@@ -204,9 +205,177 @@
     </section>
 
 </main>
+
+<main class="orderManage" id="orderManage">
+    <!-- order section -->
+    <section>
+        <div id="order_headline" class="text-center m-3">
+            <h1>Order Manage</h1>
+        </div>
+
+        <div id="searchDiv2">
+            <form class="d-flex" role="search">
+                <input id="searchOrder" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="row">
+            <div id="form2" class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                <div id="invoiceDetails_headline" class="text-center m-3">
+                    <h1>Invoice Details</h1>
+                </div>
+                <form>
+                    <div class="mb-31">
+                        <label for="orderId" class="form-label">Order Id</label>
+                        <input type="number" class="form-control" id="orderId">
+                    </div>
+                    <div class="mb-31">
+                        <label for="orderDate" class="form-label">Order Date</label>
+                        <input type="text" class="form-control" id="orderDate">
+                    </div>
+                    <div class="mb-31">
+                        <label for="customerId1" class="form-label">Customer Id</label>
+                        <input type="number" class="form-control" id="customerId1">
+                    </div>
+                    <div class="mb-31">
+                        <label for="customerName1" class="form-label">Customer Name</label>
+                        <input type="text" class="form-control" id="customerName1">
+                    </div>
+                    <div class="mb-31">
+                        <label for="customerAddress1" class="form-label">Customer Address</label>
+                        <input type="text" class="form-control" id="customerAddress1">
+                    </div>
+                    <div class="mb-31">
+                        <label for="contactNo1" class="form-label">Contact No</label>
+                        <input type="number" class="form-control" id="contactNo1">
+                    </div>
+
+                    <div id="button2">
+                        <div class="mt-31">
+                            <button id="viewOrderDetails" type="button" class="btn btn-success">View Order Details</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="line"></div>
+        <div class="row">
+            <div id="form3" class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                <div id="selectItem_headline" class="text-center m-3">
+                    <h1>Select Item</h1>
+                </div>
+                <form>
+                    <div class="mb-32">
+                        <label for="itemId1" class="form-label">Item Id</label>
+                        <input type="number" class="form-control" id="itemId1">
+                    </div>
+                    <div class="mb-32">
+                        <label for="itemDescription1" class="form-label">Item Descripyion</label>
+                        <input type="text" class="form-control" id="itemDescription1">
+                    </div>
+                    <div class="mb-32">
+                        <label for="qtyOnHand" class="form-label">Qty On Hand</label>
+                        <input type="number" class="form-control" id="qtyOnHand">
+                    </div>
+                    <div class="mb-32">
+                        <label for="orderQty" class="form-label">Order Qty</label>
+                        <input type="number" class="form-control" id="orderQty">
+                    </div>
+                    <div class="mb-32">
+                        <label for="price" class="form-label">Price</label>
+                        <input type="text" class="form-control" id="price">
+                    </div>
+
+                    <div id="button3">
+                        <div class="mt-32">
+                            <button type="button" class="btn btn-success">Add Item</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div id="card">
+
+            <h3>Total : 1350/=</h3>
+            <h1>SubTotal : 1200/=</h1>
+            <div class="mb-33" id="fill1">
+                <label for="cash" class="form-label">Cash</label>
+                <input type="number" class="form-control" id="cash">
+            </div>
+            <div class="mb-33" id="fill2">
+                <label for="discount" class="form-label">Discount</label>
+                <input type="number" class="form-control" id="discount">
+            </div>
+            <div class="mb-33" id="fill3">
+                <label for="balance" class="form-label">Balance</label>
+                <input type="text" class="form-control" id="balance">
+            </div>
+            <img src="assets/image/icons8-cart-100.png" alt="cart.png">
+
+            <div id="button5">
+                <div class="mt-33">
+                    <button type="button" class="btn btn-success">Purchase</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1 id="viewOrders" >View Orders</h1>
+        </div>
+        <table class="table" id="table2">
+            <thead id="table_head2" class="table-light">
+            <tr>
+                <th scope="col">Code</th>
+                <th scope="col">Description</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+</main>
+
+<main id="orderDetails" class="orderDetailsPage">
+    <section>
+        <div id="orders_headline" class="text-center m-3">
+            <h1>Item Manage</h1>
+        </div>
+
+        <div id="searchDiv3">
+            <form class="d-flex" role="search">
+                <input id="searchOrders" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        <div>
+            <h1 id="viewOrders1" >View Orders</h1>
+        </div>
+        <table class="table1" id="table3">
+            <thead id="table_head3" class="table-light">
+            <tr>
+                <th scope="col">Code</th>
+                <th scope="col">Description</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+</main>
+
+
 <script src="lib/jquery.min.js"></script>
-<script src="assets/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
 <script src="assets/js/script.js"></script>
+<script src="assets/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>

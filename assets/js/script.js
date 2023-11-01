@@ -9,6 +9,7 @@ window.addEventListener('load', ()=>{
     $('#navbar-nav>a').eq(0).css("color", "#435334" );
     $('#navbar-nav>a').eq(1).css("color", "#94A686" );
     $('#navbar-nav>a').eq(2).css("color", "#94A686" );
+    $('#navbar-nav>a').eq(3).css("color", "#94A686" );
 });
 
 const clear = () => {
@@ -22,6 +23,11 @@ const clear = () => {
     loadingScreen2.style.display = 'none';
     const loadingScreen3 = document.querySelector('.header');
     loadingScreen3.style.display = 'block';
+
+    const loadingScreen4 = document.querySelector('.orderManage');
+    loadingScreen4.style.display = 'none';
+    const loadingScreen5 = document.querySelector('.orderDetailsPage');
+    loadingScreen5.style.display ='none';
 
 }
 
@@ -37,6 +43,10 @@ const clear1 = () => {
     const loadingScreen3 = document.querySelector('.header');
     loadingScreen3.style.display = 'block';
 
+    const loadingScreen4 = document.querySelector('.orderManage');
+    loadingScreen4.style.display = 'none';
+    const loadingScreen5 = document.querySelector('.orderDetailsPage');
+    loadingScreen5.style.display ='none';
 }
 
 const clear2 = () => {
@@ -51,6 +61,49 @@ const clear2 = () => {
     const loadingScreen3 = document.querySelector('.header');
     loadingScreen3.style.display = 'block';
 
+    const loadingScreen4 = document.querySelector('.orderManage');
+    loadingScreen4.style.display = 'none';
+    const loadingScreen5 = document.querySelector('.orderDetailsPage');
+    loadingScreen5.style.display ='none';
+}
+
+const clear3 = () => {
+    const loadingScreen = document.querySelector('#sahan');
+    loadingScreen.style.display = 'none';
+
+    const loadingScreen1 = document.querySelector('.customerManage');
+    loadingScreen1.style.display = 'none';
+
+    const loadingScreen2 = document.querySelector('.itemManage');
+    loadingScreen2.style.display = 'none';
+
+    const loadingScreen3 = document.querySelector('.header');
+    loadingScreen3.style.display = 'block';
+
+    const loadingScreen4 = document.querySelector('.orderManage');
+    loadingScreen4.style.display = 'block';
+    const loadingScreen5 = document.querySelector('.orderDetailsPage');
+    loadingScreen5.style.display ='none';
+}
+
+const clear4 = function () {
+    const loadingScreen = document.querySelector('#sahan');
+    loadingScreen.style.display = 'none';
+
+    const loadingScreen1 = document.querySelector('.customerManage');
+    loadingScreen1.style.display = 'none';
+
+    const loadingScreen2 = document.querySelector('.itemManage');
+    loadingScreen2.style.display = 'none';
+
+    const loadingScreen3 = document.querySelector('.header');
+    loadingScreen3.style.display = 'block';
+
+    const loadingScreen4 = document.querySelector('.orderManage');
+    loadingScreen4.style.display = 'none';
+
+    const loadingScreen5 = document.querySelector('.orderDetailsPage');
+    loadingScreen5.style.display ='block';
 }
 
 function blurring() {
@@ -65,6 +118,10 @@ function blurring() {
     loadingScreen2.style.display = 'none';
     const loadingScreen3 = document.querySelector('.header');
     loadingScreen3.style.display = 'none';
+    const loadingScreen4 = document.querySelector('.orderManage');
+    loadingScreen4.style.display = 'none';
+    const loadingScreen5 = document.querySelector('.orderDetailsPage');
+    loadingScreen5.style.display ='none';
     if(load > 99) {
         clearInterval(int)
             const loadingScreen = document.getElementById('kasmi');
@@ -85,6 +142,7 @@ $('#navbar-nav>a').eq(0).on('click', function (){
     $('#navbar-nav>a').eq(0).css("color", "#435334" );
     $('#navbar-nav>a').eq(1).css("color", "#94A686" );
     $('#navbar-nav>a').eq(2).css("color", "#94A686" );
+    $('#navbar-nav>a').eq(3).css("color", "#94A686" );
 })
 
 $('#navbar-nav>a').eq(1).on('click', function (){
@@ -92,6 +150,7 @@ $('#navbar-nav>a').eq(1).on('click', function (){
     $('#navbar-nav>a').eq(1).css("color", "#435334" );
     $('#navbar-nav>a').eq(0).css("color", "#94A686" );
     $('#navbar-nav>a').eq(2).css("color", "#94A686" );
+    $('#navbar-nav>a').eq(3).css("color", "#94A686" );
 })
 
 $('#navbar-nav>a').eq(2).on('click', function (){
@@ -99,6 +158,19 @@ $('#navbar-nav>a').eq(2).on('click', function (){
     $('#navbar-nav>a').eq(1).css("color", "#94A686" );
     $('#navbar-nav>a').eq(0).css("color", "#94A686" );
     $('#navbar-nav>a').eq(2).css("color", "#435334" );
+    $('#navbar-nav>a').eq(3).css("color", "#94A686" );
+})
+
+$('#navbar-nav>a').eq(3).on('click', function (){
+    clear3();
+    $('#navbar-nav>a').eq(1).css("color", "#94A686" );
+    $('#navbar-nav>a').eq(0).css("color", "#94A686" );
+    $('#navbar-nav>a').eq(2).css("color", "#94A686" );
+    $('#navbar-nav>a').eq(3).css("color", "#435334" );
+})
+
+$('#sahan>section>.home_pag_paragraph>#orderDetailsBtn').on('click', function (){
+    clear4();
 })
 
 // https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers

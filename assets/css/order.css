@@ -1,0 +1,372 @@
+#order_headline{
+    position: absolute;
+    color: #435334;
+    left: 10%;
+    top: 6%;
+}
+
+#searchOrder{
+    width: 281px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#searchDiv2{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+
+#invoiceDetails_headline{
+    color: #9EB384;
+    position: absolute;
+    font-size: 13px;
+    top: 15%;
+    left: 17%;
+}
+
+#orderId{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#orderDate{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#customerId1{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#customerName1{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#customerAddress1{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#contactNo1{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+.mb-31:nth-child(1){
+    position: absolute;
+    bottom:65%;
+    left: 10%;
+}
+
+.mb-31:nth-child(2){
+    position: absolute;
+    bottom:65%;
+    left: 22%;
+}
+
+.mb-31:nth-child(3){
+    position: absolute;
+    bottom:54%;
+    left: 10%;
+}
+
+.mb-31:nth-child(4){
+    position: absolute;
+    bottom:54%;
+    left: 22%;
+}
+
+.mb-31:nth-child(5){
+    position: absolute;
+    bottom:44%;
+    left: 10%;
+}
+
+.mb-31:nth-child(6){
+    position: absolute;
+    bottom:44%;
+    left: 22%;
+}
+
+
+
+#button2{
+    position: absolute;
+    left: 10%;
+    top: 58%;
+}
+
+#button2>button{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 0;
+
+}
+
+#button2>.mt-31>button:nth-child(1){
+    background-color: #008000;
+}
+
+#line{
+    position: absolute;
+    width: 2px;
+    height: 350px;
+    left: 35%;
+    top: 18%;
+    background-color: #435334;
+    border: 1px solid #9EB384;
+}
+
+#selectItem_headline{
+    color: #9EB384;
+    position: absolute;
+    font-size: 13px;
+    top: 15%;
+    left: 42.5%;
+}
+
+#itemId1{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#itemDescription1{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#qtyOnHand{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#orderQty{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+#price{
+    width: 170px;
+    background-color: #E4E4D0;
+    opacity: 50%;
+    border: 1px solid #435334;
+}
+
+.mb-32:nth-child(1){
+    position: absolute;
+    bottom:65%;
+    left: 36.5%;
+}
+
+.mb-32:nth-child(2){
+    position: absolute;
+    bottom:65%;
+    left: 48.5%;
+}
+
+.mb-32:nth-child(3){
+    position: absolute;
+    bottom:54%;
+    left: 36.5%;
+}
+
+.mb-32:nth-child(4){
+    position: absolute;
+    bottom:54%;
+    left: 48.5%;
+}
+
+.mb-32:nth-child(5){
+    position: absolute;
+    bottom:44%;
+    left: 36.5%;
+}
+
+#button3{
+    position: absolute;
+    left: 45%;
+    top: 58%;
+}
+
+#button3>button{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 35px;
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    color: black;
+    text-align: center;
+    padding: 0;
+
+}
+
+#card{
+    width: 320px;
+    height: 330px;
+    background-color: #E4E4D0;
+    position: absolute;
+    top: 22%;
+    right: 15%;
+    opacity: 60%;
+}
+
+#card>img{
+    z-index:-10;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 200px;
+    aspect-ratio: 1/1;
+}
+
+#card>h3{
+    position: absolute;
+    color: #435334;
+    left: 10%;
+    top: 5%;
+}
+
+#card>h1{
+    position: absolute;
+    color: #FF0000;
+    left: 10%;
+    top: 10%;
+}
+
+#cash{
+    z-index: 100;
+    width: 130px;
+    background-color: #E4E4D0;
+    /*opacity: 50%;*/
+    border: 1px solid #435334;
+}
+
+#discount{
+    z-index: 100;
+
+    width: 130px;
+    background-color: #E4E4D0;
+    /*opacity: 50%;*/
+    border: 1px solid #435334;
+}
+
+#balance{
+    z-index: 100;
+    width: 130px;
+    background-color: #E4E4D0;
+    /*opacity: 50%;*/
+    border: 1px solid #435334;
+}
+
+#fill1{
+    position: absolute;
+    top: 35%;
+    left: 9%;
+}
+
+#fill2{
+    position: absolute;
+    top: 35%;
+    left: 55%;
+}
+
+#fill3{
+    position: absolute;
+    top: 60%;
+    left: 9%;
+}
+
+#button5{
+    position: absolute;
+    left: 35%;
+    top: 85%;
+}
+
+#button3>.mt-32>button:nth-child(1){
+    background-color: #FF0000;
+}
+
+.form-label{
+    font-size: 18px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+}
+
+#viewOrders{
+    position: absolute;
+    bottom: 200px;
+    left: 10%;
+}
+
+/*apply css table */
+
+#table2{
+    width: 1150px;
+    position: absolute;
+    left: 190px;
+    top: 70%;
+}
+
+#table_head2>tr>th{
+    background-color: #9EB384;
+    color: white;
+    font-size: 25px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+}
+
+#table_head2>tr>th:first-child{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#table_head2>tr>th:last-child{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.table>tbody{
+    font-size: 22px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight:400;
+}

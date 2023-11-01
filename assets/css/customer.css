@@ -1,5 +1,7 @@
 #customer_headline{
     position: absolute;
+    color: #435334;
+    font-weight: lighter;
     left: 10%;
     top: 10%;
 }
